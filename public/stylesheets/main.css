@@ -8,11 +8,22 @@
 }
 
 #landing-image {
-    width: 20%;
+    max-width: 20%;
     height: auto;
 }
 
 .main-text {
     background-color: green;
-    
+    max-width: 60%;
+    padding-left: 1.66%;
+}
+
+.wrapper {
+        display: flex;
+}
+
+#sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        height: 100vh;
 }
