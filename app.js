@@ -13,11 +13,11 @@ app.use(methodOverride("_method"));
 
 
 app.get("/", function(req, res){
-   res.render("landing")
+   res.render("landing");
 });
 
 app.get("/about", function(req, res){
-   res.send("You have reached about me page.")
+   res.render("about");
 });
 
 app.get("/blog", function(req, res){

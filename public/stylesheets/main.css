@@ -3,8 +3,9 @@
 /*}*/
 
 #banner-image {
-    width: 40%;
+    width: auto;
     height: auto;
+    max-width: 300px;
 }
 
 #landing-image {
@@ -12,18 +13,74 @@
     height: auto;
 }
 
+.baz {
+    /*background-color: green;*/
+    background-color: rgba(249,249,249, 0.8);
+
+    border: dashed 2px black;
+    /*padding-left: 15px;*/
+}
 .main-text {
-    background-color: green;
-    max-width: 60%;
-    padding-left: 1.66%;
+    
+    /*max-width: 60%;*/
+    padding: 10px 10px;
 }
 
+.banner-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
 .wrapper {
         display: flex;
 }
 
-#sidebar {
-        min-width: 250px;
-        max-width: 250px;
-        height: 100vh;
+.footer{
+    padding: 1.5rem 0;
+    color: #000;
+    text-align: center;
+    background-color: rgba(249,249,249, 0.3);
+    /*border-top: .05rem solid #e5e5e5;*/
+    font-size: 1rem;
+    margin-top: 1em;
 }
+
+#inline_img {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    
+}
+
+.banner{
+    background-image: url("https://static.zerochan.net/Midoriya.Izuku.full.2189065.png");
+    background-position: center center, center top;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+body {
+    background-color: #45D511;
+    background-image: url("https://i.ytimg.com/vi/XfMkipS7ugg/maxresdefault.jpg");
+    background-position: center center, center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*opacity: 0.5;*/
+}
+
+#landing-btn {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/*#sidebar {*/
+/*        min-width: 250px;*/
+/*        max-width: 250px;*/
+/*        height: 450px;*/
+/*}*/
